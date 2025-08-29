@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Ziantrks</title>
+  
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- CSS + Fade-in animation -->
+  <style>
+    .tombol-keren {
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tombol-keren:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', 'Times New Roman', Times, serif;
+    }
+
+    body {
+      background: hsl(270, 100%, 30%);
+      color: #000000;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #000000;
+      color: rgb(216, 212, 212);
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+  font-size: 42px;            /* Ukuran font besar */
+  font-weight: 700;           /* Super tebal */
+  color: #ffffff;             /* Warna putih, biar kontras */
+  text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5);  /* Efek bayangan */
+  margin-bottom: 15px;
+}
+
+
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: navy;
+      font-weight: 700;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header, .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+   <h1 class="animate__animated animate__fadeInUp">Hi Everyone Welcome! Gue Ziantrks 🚀 </h1>
+
+    <h2 style="text-align: center;"> welcome to my first HTML website!</h2>
+    <nav>
+      <a href="#">Anak</a>
+      <a href="#">Endang</a>
+      <a href="#">&</a>
+      <a href="#">Yuni</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="card fade-in">
+      <h2>🔥 Proyek Gue belajar dari gpt</h2>
+      <p>Ini adalah contoh website HTML statis yang gue bikin pakai Visual Studio Code dan Live Server dan bantuan chat gpt.</p>
+    </div>
+
+    <div class="card fade-in">
+      <h1>👨‍💻 MY SKILL</h1>
+      <ul>
+        <br>
+        <li>
+        <a href="https://bungatelang.my.canva.site/dagng1g1tyk" target="_blink" >
+            <button class="tombol-keren">PORTOFOLIO DESAIN GRAFIS </button>
+        </a>
+        </li>
+        <br>
+        <li>
+        <a href="coding.png" target="_blank">
+            <button class="tombol-keren">Portofolio Coding </button> 
+        </a>
+        </li>
+        <br>
+        <li>
+            <button class="tombol-keren">ECONOMICS ANALYSIS (belum ada porto)</button>
+        </li>
+        <br>
+        <li>
+            <button class="tombol-keren">CONTENT CREATOR </button>
+        </li>
+        <br>
+        <iframe width="420" height="315" 
+        src="https://www.youtube.com/embed/n8A2Ar_FU5s"        
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+        </iframe>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Fauzi Antariksa. Dibuat dengan dan VS Code.
+  </footer>
+</body>
+</html>
